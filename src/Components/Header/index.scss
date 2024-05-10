@@ -1,0 +1,30 @@
+.header{
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >div:nth-child(2){
+        margin: 0;
+        padding: 0;
+        width: 70%;
+        >ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            >li{
+                padding: 10px;
+                margin: 0;
+                >a{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #000000;
+                    text-decoration: none;
+                }
+                >a:hover{
+                    color: #FF0000;
+                }
+            }
+        }
+    }
+}

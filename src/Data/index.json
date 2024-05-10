@@ -1,0 +1,25 @@
+{
+    "memberships":[
+        {
+            "id": "1",
+            "name": "PROGRAM",
+            "src": "../../Assets/Program.webp",
+            "description": "Our bespoke flight subscription membership, offering guaranteed access to the entire fleet.",
+            "to": "/Program"
+        },
+        {
+            "id": "2",
+            "name": "VJ25",
+            "src": "../../Assets/VJ25.webp",
+            "description": "The membership for high-quality, low-frequency travel, from 25 flight hours per year.",
+            "to": "/Program"
+        },
+        {
+            "id": "3",
+            "name": "CORPORATE",
+            "src": "../../Assets/CORPORATE.webp",
+            "description": "A full suite of flexible business jet solutions for corporations and executives around the world.",
+            "to": "/corprorate"
+        }
+    ]
+}

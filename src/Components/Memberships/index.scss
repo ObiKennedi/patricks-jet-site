@@ -1,0 +1,21 @@
+.memberships{
+    padding: 20px 10%;
+    margin: 0;
+    text-align: left;
+    >div{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        >a{
+            background: #FFFFFF;
+            text-decoration: none;
+            width: 350px;
+            >div:last-child{
+                padding: 10px 12%;
+            }
+        }
+        >a:hover{
+            border-bottom: 1px solid #FF0000;
+        }
+    }
+}

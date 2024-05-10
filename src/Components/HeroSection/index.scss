@@ -1,0 +1,28 @@
+.hero--section{
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    >h1{
+        font-size: 70px;
+        line-height: 68px;
+        font-family: sans-serif;
+    }
+    >div:nth-child(2){
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        >p{
+            font-size: 25px;
+            line-height: 21px;
+        }
+    }
+    >div:last-child{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+}
