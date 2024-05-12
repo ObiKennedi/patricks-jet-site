@@ -1,0 +1,38 @@
+.banner{
+    display: flex;
+    padding: 10px 10%;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    @media (max-width:900px) {
+        flex-direction: column;
+        height: fit-content;
+        padding: 0;
+        gap: 0;
+    }
+    >div:first-child{
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        @media (max-width:900px) {
+            width: 87.9%;
+        }
+        >img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    >div:last-child{
+        width: 50%;
+        height: 85%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background: #FFFFFF;
+        @media (max-width:900px) {
+            width: 74%;
+        }
+    }
+}

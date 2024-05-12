@@ -2,6 +2,9 @@
     padding: 20px 10%;
     margin: 0;
     text-align: left;
+    @media (max-width:900px) {
+        padding: 20px;
+    }
     >div{
         display: flex;
         flex-wrap: wrap;

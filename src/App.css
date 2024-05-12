@@ -7,10 +7,9 @@
   height: 100%;
 }
 .button-links{
-  width: 170px;
-  height: 30px;
-  background: #A30000;
-  border-radius: 15px;
+  padding: 20px;
+  background: #E0B643;
+  border-radius: 25px;
   border: none;
 }
 .button-links a{
@@ -21,7 +20,7 @@
   text-decoration: none;
 }
 .button-links:hover{
-  background: #FF0000;
+  background: #FFF000;
 }
 .button-for-forms{
   width: 70%;
@@ -43,11 +42,13 @@
 .hamburger--menu--icon img{
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 .pages{
   height: 100%;
   color: #000000;
-  background: #D8A1A1;
+  padding: 0;
+  background: #E9EBE4;
 }
 .plan--flight--form{
   width: 100%;
@@ -57,7 +58,7 @@
 .plan--flight--form input{
   width: 100%;
   height: 50px;
-  border: 1px solid #FF0000;
+  border: 1px solid #FFE600;
   border-radius: 20px;
   outline: none;
   padding: 10px;
@@ -81,12 +82,12 @@
   cursor: pointer;
 }
 .plan--flight--form ul li:hover{
-  color: #FF0000;
+  color: #FFE600;
 }
 .sub--heading{
-  font-size: 24px;
-  font-weight: 500;
-  color: #FF2000;
+  font-size: 34px;
+  font-weight: 200;
+  color: #FFE600;
   text-align: start;
 }
 .write--up{
@@ -101,4 +102,35 @@
 .random--images img{
   width: 100%;
   height: 100%;
+}
+.open{
+  display: flex;
+  gap: 2px;
+}
+.open ul{
+  display: none;
+}
+.open::after{
+  content: url('../../patricks-jet-site/src/Assets/drop--down--open.png');
+  width: 5px;
+  display: inline;
+}
+.close{
+  display: flex;
+}
+.close ul{
+  display: flex;
+}
+.close::after{
+  content: url('../../patricks-jet-site/src/Assets/drop--down--close.png');
+  width: 5px;
+  display: inline;
+}
+@media (max-width:900px) {
+  .sub--heading{
+    font-size: 24px;
+    font-weight: 200;
+    color: #FFE600;
+    text-align: start;
+  }
 }
