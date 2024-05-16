@@ -1,0 +1,76 @@
+.membership--form{
+    padding: 10px 10%;
+    margin: auto;
+    >form{
+        background: #FFFFFF;
+        padding: 10%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        >div{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            @media (max-width:900px) {
+                flex-direction: column;
+                gap: 10px;
+            }
+            >input{
+                width: 45%;
+                padding: 10px;
+                border: 1px solid #FFF000;
+                outline: none;
+                @media (max-width:900px) {
+                    width: 100%;
+                }
+            }
+            .input{
+                position: relative;
+                width: 34%;
+                @media (max-width:900px) {
+                    width: 100%;
+                }
+                .PhoneInputCountry{
+                    position: absolute;
+                    z-index: 1;
+                    top: -7px;
+                    left: 10px;
+                    @media (max-width:900px) {
+                        top: 10px;
+                        left: 10px;
+                    }
+                }
+                >input{
+                    position: absolute;
+                    z-index: 0;
+                    padding: 10px 20%;
+                    border: 1px solid #FFF000;
+                    width: 100%;
+                    outline: none;
+                    @media (max-width:900px) {
+                        position: inherit;
+                        width: 100%;
+                    }
+                }
+            }
+            >textarea{
+                width: 100%;
+                height: 100px;
+                outline: none;
+                padding: 10px;
+                border: 1px solid #FFF000;
+            }
+            >select{
+                width: 48%;
+                padding: 10px;
+                border: 1px solid #FFF000;
+            }
+            >button{
+                width: 100%;
+            }
+        }
+    }
+}

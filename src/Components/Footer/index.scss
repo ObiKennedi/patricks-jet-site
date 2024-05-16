@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    color: #FFFFF0;
+    background: #000000;
+    padding: 10px 10%;
+    gap: 10px;
+    @media (max-width:900px) {
+        display: block;
+    }
+    >p{
+        font-size: 14px;
+    }
+}

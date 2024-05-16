@@ -41,10 +41,10 @@ export default function Header(){
             <div className={menuClass}>
                 <ul>
                     <li>
-                        <NavLink>Home</NavLink>
+                        <NavLink to={'/'}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="#" onClick={() => handleClick('memberships')} className={activeMenu === 'memberships' ? 'close' : 'open'}>Membership</NavLink>
+                        <NavLink to="/members" onClick={() => handleClick('memberships')} className={activeMenu === 'memberships' ? 'close' : 'open'}>Membership</NavLink>
                         {activeMenu === 'memberships' && (
                             <ul>
                                 <li><NavLink>Memberships</NavLink></li>

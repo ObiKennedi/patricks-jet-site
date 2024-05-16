@@ -126,11 +126,21 @@
   width: 5px;
   display: inline;
 }
+.div--btn--container{
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+}
 @media (max-width:900px) {
   .sub--heading{
     font-size: 24px;
     font-weight: 200;
     color: #FFE600;
     text-align: start;
+  }
+  .div--btn--container{
+    margin: 0;
+    display: block;
   }
 }

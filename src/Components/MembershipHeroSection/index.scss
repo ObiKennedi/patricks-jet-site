@@ -1,0 +1,64 @@
+.memberships--hero--section {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 70vh;
+    @media (max-width:900px){
+        display: block;
+    }
+    >div:first-child{
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        top: -17px;
+        z-index: 0;
+        >img{
+            width: 100%;
+            height: 100%;
+        }
+        @media (max-width:900px) {
+            top: 0;
+            position: relative;
+        }
+    }
+    >div:last-child{
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 83%;
+        top: -17px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F7EE5AA6;
+        @media (max-width:900px) {
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            height: fit-content;
+            width: 100%;
+            top: 0;
+            background: #FFFFF0;
+            display: block;
+            bottom: 0;
+        }
+        >h1{
+            color: #FFFFF0;
+            font-size: 45px;
+            text-align: center;
+            @media (max-width:900px){
+                color: #FFF00F;
+                font-size: 25px;
+            }
+        }
+        >div{
+            font-size: 35px;
+            color: #FFFFF0;
+            @media (max-width:900px){
+                font-size: 14px;
+                color: #00000F;
+            }
+        }
+    }
+}

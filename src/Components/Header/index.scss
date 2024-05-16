@@ -25,6 +25,7 @@
                 }
                 >ul{
                     position: absolute;
+                    z-index: 5;
                     top: 40px;
                     left: -20px;
                     padding: 10px 15%;
@@ -71,6 +72,7 @@
     justify-content: space-between;
     >div:nth-child(2){
         position: absolute;
+        z-index: 5;
         right: 0px;
         padding: 10px 17%;
         background: #000000;
